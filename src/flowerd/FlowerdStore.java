@@ -29,7 +29,7 @@ public class FlowerdStore {
             phone ="0500098000";
             url = "https://floward.com/en-sa/riyadh";
     }
-@Test
+@Test(priority=0)
 public void sigup()throws InterruptedException  {
       WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(90));
       //navigate to banana website and maximaize
